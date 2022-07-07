@@ -8,4 +8,5 @@ make_project.py：以命令行形式引导用户输入项目目录、项目名�
 
 make_project_gui.py：以简单的图形界面引导用户输入相关信息，然后创建项目。
 
-
+依赖项：
+make_project_gui.py依赖于pyperclip、easygui这两个库。
